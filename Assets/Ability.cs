@@ -68,6 +68,18 @@ public class Ability: ScriptableObject
         return -1;
     }
 
+    public int GetSpecialIntValue(string name)
+    {
+        foreach (var value in specialValues)
+        {
+            if(value.name == name)
+            {
+                return int.Parse(value.value);
+            }
+        }
+        return -1;
+    }
+
     public void SetActive(bool value)
     {
         isActive = value;
