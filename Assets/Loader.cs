@@ -40,18 +40,9 @@ public class HeroData
 
 }
 
-[System.Serializable]
-public class AbilityDatabase
-{
-    public List<AbilityData> abilities;
-}
-
 //Loads and sets the necessary data for a hero
 public class Loader : MonoBehaviour
 {
-
-    
-    public AbilityDatabase abilityDatabase;
     string heroName;
     Abilities abilityScript;
 
@@ -69,34 +60,27 @@ public class Loader : MonoBehaviour
         heroData = data;
         abilityScript = GetComponent<Abilities>();
         UIManager.Instance.hero = gameObject;
-        abilityDatabase = LoadAbilityDatabase();
         LoadAbilities();
-    }
-
-    AbilityDatabase LoadAbilityDatabase()
-    {
-        var abilityDB = Resources.Load<TextAsset>("Abilities/Abilities");
-        return JsonUtility.FromJson<AbilityDatabase>(abilityDB.text);
     }
 
     void LoadAbilities()
     {
-        foreach (var abilityName in heroData.abilities)
+        for (int i = 0; i < heroData.abilities.Count; i++)
         {
-            // Find ability data by name
-            var abilityData = abilityDatabase.abilities.Find(ab => ab.abilityName == abilityName);
+            string abilityName = heroData.abilities[i];
 
-            if (abilityData == null)
+            var abilityTextAsset = Resources.Load<TextAsset>("Abilities/JSON/" + abilityName);
+            AbilityData abilityData = JsonUtility.FromJson<AbilityData>(abilityTextAsset.text);
+
+            var loadedAbility = Resources.Load<Ability>("Abilities/" + abilityName);
+            if (loadedAbility == null)
             {
-                Debug.LogError("Ability " + abilityName + " not found in AbilityDatabase!");
+                Debug.LogError("Ability prefab for " + abilityName + " not found!");
                 continue;
             }
 
-            string path = "Abilities/" + abilityName;
-            var loadedAbility = Resources.Load<Ability>(path);
-
             loadedAbility.SetCooldown(abilityData.cooldown);
-            loadedAbility.SetIndex(abilityScript.abilities.Count);
+            loadedAbility.SetIndex(i);
             loadedAbility.SetCastRange(abilityData.castrange);
             loadedAbility.SetDamage(abilityData.damage);
             loadedAbility.SetSpecialValues(abilityData.specialValues);

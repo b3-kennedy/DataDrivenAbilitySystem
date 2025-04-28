@@ -1,0 +1,19 @@
+{
+    "abilityName": "TeleportOrb",
+    "hotkey": "Q",
+    "cooldown": "10",
+    "icon": "TeleportOrbIcon",
+    "castrange": "10",
+    "damage": "15",
+    "specialValues":
+    [
+        {
+            "name": "duration",
+            "value": "5"
+        },
+        {
+            "name": "force",
+            "value": "10"
+        }
+    ]
+}

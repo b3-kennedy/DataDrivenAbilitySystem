@@ -1,0 +1,15 @@
+{
+    "abilityName": "Lasso",
+    "hotkey": "R",
+    "cooldown": "25",
+    "icon": "LassoIcon",
+    "castrange": "5",
+    "damage": "5",
+    "specialValues":
+    [
+        {
+            "name": "duration",
+            "value": "3"
+        }
+    ]
+}

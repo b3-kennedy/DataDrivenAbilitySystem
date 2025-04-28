@@ -1,0 +1,18 @@
+{
+    "abilityName": "SpeedBoost",
+    "hotkey": "W",
+    "cooldown": "10",
+    "icon": "SpeedIcon",
+    "castrange": "0",
+    "specialValues":
+    [
+        {
+            "name": "duration",
+            "value": "5"
+        },
+        {
+            "name": "boost",
+            "value": "1.5"
+        }
+    ]
+}
