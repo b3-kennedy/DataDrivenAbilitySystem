@@ -1,0 +1,25 @@
+{
+    "abilityName": "Displace",
+    "hotkey": "E",
+    "cooldown": "1",
+    "icon": "DisplaceIcon",
+    "castrange": "15",
+    "damage": "5",
+    "radius": "3",
+    "specialValues":
+    [
+        {
+            "name": "displaceForce",
+            "value": "5"
+        },
+        {
+            "name": "arcHeightMultiplier",
+            "value": "5"
+        },
+        {
+            "name": "durationMultiplier",
+            "value": "25"
+
+        }
+    ]   
+}

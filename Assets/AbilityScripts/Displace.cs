@@ -18,7 +18,7 @@ public class Displace : AOEAbility
         float height = Vector3.Distance(caster.transform.position, startCursorPos)/heightMultiplier;
         float duration = Vector3.Distance(caster.transform.position, startCursorPos)/durationMultiplier;
 
-        proj = ProjectileManager.Instance.CreateArcingProjectile("TestProjectile", caster.transform.position, startCursorPos, duration ,height, GetDamage(), true);
+        proj = ProjectileManager.Instance.CreateArcingProjectile("DisplaceProjectile", caster.transform.position, startCursorPos, duration ,height, GetDamage(), true);
 
     }
 

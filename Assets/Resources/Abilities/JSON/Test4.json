@@ -1,0 +1,9 @@
+{
+    "abilityName": "Test4",
+    "hotkey": "R",
+    "cooldown": "1",
+    "icon": "TestIcon4",
+    "castrange": "10",
+    "radius": "3",
+    "damage": "50"
+}

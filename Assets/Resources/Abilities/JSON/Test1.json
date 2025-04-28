@@ -1,0 +1,9 @@
+{
+    "abilityName": "Test1",
+    "hotkey": "Q",
+    "cooldown": "1",
+    "icon": "TestIcon1",
+    "castrange": "10",
+    "damage": "15"
+    
+}

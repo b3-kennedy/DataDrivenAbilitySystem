@@ -1,0 +1,7 @@
+{
+    "abilityName": "Test2",
+    "hotkey": "W",
+    "cooldown": "10",
+    "icon": "TestIcon2",
+    "castrange": "20"
+}

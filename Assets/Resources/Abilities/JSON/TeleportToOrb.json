@@ -1,0 +1,6 @@
+{
+    "abilityName": "TeleportToOrb",
+    "hotkey": "D",
+    "cooldown": "0",
+    "icon": "TeleportToOrbIcon"
+}

@@ -78,7 +78,7 @@ public class Loader : MonoBehaviour
                 Debug.LogError("Ability prefab for " + abilityName + " not found!");
                 continue;
             }
-
+            
             loadedAbility.SetCooldown(abilityData.cooldown);
             loadedAbility.SetIndex(i);
             loadedAbility.SetCastRange(abilityData.castrange);

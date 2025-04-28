@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1749059661394222771}
   - component: {fileID: 4211699264557101025}
   - component: {fileID: 4653330077826244453}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Enemy
   m_TagString: enemy
   m_Icon: {fileID: 0}
@@ -129,7 +129,7 @@ MonoBehaviour:
   patrolPointsParent: {fileID: 0}
   patrolPoints: []
   currentWaypoint: {fileID: 0}
-  speed: 10
+  patrolSpeed: 10
 --- !u!54 &4211699264557101025
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -183,7 +183,7 @@ GameObject:
   - component: {fileID: 8500145366694667577}
   - component: {fileID: 2312055119636213053}
   - component: {fileID: 7679924367429328771}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -284,7 +284,7 @@ GameObject:
   - component: {fileID: 3317046241320807699}
   - component: {fileID: 3057697506749579769}
   - component: {fileID: 8220580411091543344}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: HealthBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -359,7 +359,7 @@ GameObject:
   - component: {fileID: 2196349253921390286}
   - component: {fileID: 6915715963974023871}
   - component: {fileID: 9085474210844413034}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: HealthBarBG
   m_TagString: Untagged
   m_Icon: {fileID: 0}
