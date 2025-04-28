@@ -1,0 +1,11 @@
+{
+    "name": "Hero1",
+    "prefab": "Hero1",
+    "abilities": [
+        "TeleportOrb",
+        "SpeedBoost",
+        "Displace",
+        "TeleportToOrb",
+        "Lasso"   
+    ]
+}

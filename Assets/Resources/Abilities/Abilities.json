@@ -1,0 +1,121 @@
+{
+"abilities": [
+        {
+            "abilityName": "Test1",
+            "hotkey": "Q",
+            "cooldown": "1",
+            "icon": "TestIcon1",
+            "castrange": "10",
+            "damage": "15"
+            
+        },
+        {
+            "abilityName": "Test2",
+            "hotkey": "W",
+            "cooldown": "10",
+            "icon": "TestIcon2",
+            "castrange": "20"
+        },
+        {
+            "abilityName": "Test3",
+            "hotkey": "E",
+            "cooldown": "1",
+            "icon": "TestIcon3",
+            "castrange": "15",
+            "damage": "5"
+        },
+        {
+            "abilityName": "Test4",
+            "hotkey": "R",
+            "cooldown": "1",
+            "icon": "TestIcon4",
+            "castrange": "10",
+            "radius": "3",
+            "damage": "50"
+        },
+        {
+            "abilityName": "TeleportOrb",
+            "hotkey": "Q",
+            "cooldown": "10",
+            "icon": "TeleportOrbIcon",
+            "castrange": "10",
+            "damage": "15",
+            "specialValues":
+            [
+                {
+                    "name": "duration",
+                    "value": "5"
+                },
+                {
+                    "name": "force",
+                    "value": "10"
+                }
+            ]
+            
+        },
+        {
+            "abilityName": "SpeedBoost",
+            "hotkey": "W",
+            "cooldown": "10",
+            "icon": "SpeedIcon",
+            "castrange": "0",
+            "specialValues":
+            [
+                {
+                    "name": "duration",
+                    "value": "5"
+                },
+                {
+                    "name": "boost",
+                    "value": "1.5"
+                }
+            ]
+        },
+        {
+            "abilityName": "Displace",
+            "hotkey": "E",
+            "cooldown": "1",
+            "icon": "TestIcon3",
+            "castrange": "15",
+            "damage": "5",
+            "radius": "3",
+            "specialValues":
+            [
+                {
+                    "name": "displaceForce",
+                    "value": "5"
+                },
+                {
+                    "name": "arcHeightMultiplier",
+                    "value": "5"
+                },
+                {
+                    "name": "durationMultiplier",
+                    "value": "25"
+
+                }
+            ]
+        },
+        {
+            "abilityName": "TeleportToOrb",
+            "hotkey": "D",
+            "cooldown": "0",
+            "icon": "TeleportToOrbIcon"
+        },
+        {
+            "abilityName": "Lasso",
+            "hotkey": "R",
+            "cooldown": "25",
+            "icon": "LassoIcon",
+            "castrange": "5",
+            "damage": "5",
+            "specialValues":
+            [
+                {
+                    "name": "duration",
+                    "value": "3"
+                }
+            ]
+        }
+    ]
+}

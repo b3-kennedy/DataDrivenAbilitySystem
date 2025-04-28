@@ -1,0 +1,12 @@
+{
+    "name": "Test",
+    "prefab" : "TestHero",
+    "abilities": [
+        "Test1",
+        "Test2",
+        "Test3",
+        "Test4"
+    ]
+
+    
+}
