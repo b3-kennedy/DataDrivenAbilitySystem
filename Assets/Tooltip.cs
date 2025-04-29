@@ -44,18 +44,16 @@ public class Tooltip : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
         // Prepare dictionary for replacements
         Dictionary<string, string> values = new Dictionary<string, string>
         {
-            { "damage", ability.damage.ToString() },
+            {"damage", ability.damage.ToString() },
             {"cooldown", ability.cooldown.ToString()},
             {"radius", ability.radius.ToString()}
         };
 
-        // Add special values like duration, interval, etc.
         foreach (var sv in ability.specialValues)
         {
             values[sv.name] = sv.value;
         }
 
-        // Replace {placeholders} in the description
         string description = ability.abilityDescription;
 
         foreach (var kvp in values)
