@@ -1,0 +1,9 @@
+{
+    "abilityName": "Swap",
+    "hotkey": "R",
+    "cooldown": "10",
+    "icon": "SwapIcon",
+    "castrange": "10",
+    "damage": "15",
+    "abilityDescription": "Swaps the position of the caster and the target, deals {damage} damage. Has a {cooldown} second cooldown"
+}

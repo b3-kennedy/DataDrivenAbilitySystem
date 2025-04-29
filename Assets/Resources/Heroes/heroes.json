@@ -1,6 +1,7 @@
 {
     "validHeroes": [
         "TestHero",
-        "Hero1"
+        "Hero1",
+        "Hero2"
     ]
 }

@@ -2,5 +2,6 @@
     "abilityName": "TeleportToOrb",
     "hotkey": "D",
     "cooldown": "0",
-    "icon": "TeleportToOrbIcon"
+    "icon": "TeleportToOrbIcon",
+    "abilityDescription": "Allows the caster to teleport to the orb casted by the TeleportOrb ability"
 }

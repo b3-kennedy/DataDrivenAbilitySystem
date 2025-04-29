@@ -20,6 +20,8 @@ public class AbilityData
     public float damage;
 
     public List<SpecialValue> specialValues;
+
+    public string abilityDescription;
      
 
 }
@@ -96,6 +98,7 @@ public class Loader : MonoBehaviour
             spawnedIcon.GetComponent<Image>().sprite = abilityIconSprite;
 
             loadedAbility.SetIcon(spawnedIcon);
+            loadedAbility.GetIcon().GetComponent<Tooltip>().SetUpToolTip(abilityData);
 
             var hotKeyAbility = new HotkeyAbility
             {

@@ -21,5 +21,6 @@
             "value": "25"
 
         }
-    ]   
+    ],
+    "abilityDescription": "Pushes all enemy units away from the centre point, has a {radius} unit radius, {cooldown} second cooldown and deals {damage} damage"
 }

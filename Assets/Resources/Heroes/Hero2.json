@@ -1,0 +1,10 @@
+{
+    "name": "Hero2",
+    "prefab": "Hero2",
+    "abilities": [
+        "Vacuum",
+        "Stomp",
+        "Burn",
+        "Swap"   
+    ]
+}

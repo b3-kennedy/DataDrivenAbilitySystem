@@ -3,5 +3,6 @@
     "hotkey": "W",
     "cooldown": "10",
     "icon": "TestIcon2",
-    "castrange": "20"
+    "castrange": "20",
+    "abilityDescription": ""
 }

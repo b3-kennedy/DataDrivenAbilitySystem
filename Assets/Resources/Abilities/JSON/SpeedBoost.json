@@ -14,5 +14,6 @@
             "name": "boost",
             "value": "1.5"
         }
-    ]
+    ],
+    "abilityDescription": "Increases the casters speed by a factor of {boost}, lasts {duration} seconds. Has a {cooldown} second cooldown"
 }

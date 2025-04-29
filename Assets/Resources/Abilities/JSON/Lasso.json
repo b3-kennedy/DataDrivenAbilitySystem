@@ -11,5 +11,6 @@
             "name": "duration",
             "value": "3"
         }
-    ]
+    ],
+    "abilityDescription": "Drags the target unit along with the caster for {duration} seconds. Deals {damage} damage. Has a {cooldown} second cooldwn"
 }

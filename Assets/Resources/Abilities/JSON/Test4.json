@@ -5,5 +5,6 @@
     "icon": "TestIcon4",
     "castrange": "10",
     "radius": "3",
-    "damage": "50"
+    "damage": "50",
+    "abilityDescription": ""
 }

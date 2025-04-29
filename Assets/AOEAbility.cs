@@ -25,6 +25,8 @@ public class AOEAbility : Ability
 
     public override void Update()
     {
+        if(IsOnCooldown()) return;
+
         base.Update();
         if(IsTargeting() && IsWithinRange())
         {
@@ -48,5 +50,11 @@ public class AOEAbility : Ability
         Collider[] colliders = Physics.OverlapSphere(GetCursorPosition(), radius);
         return colliders;
 
+    }
+
+    public virtual Collider[] GetUnitsInAreaAroundCaster()
+    {
+        Collider[] colliders = Physics.OverlapSphere(Action.GetCorrectVector(GetCaster().transform.position), radius);
+        return colliders;
     }
 }

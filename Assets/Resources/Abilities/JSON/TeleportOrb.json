@@ -15,5 +15,6 @@
             "name": "force",
             "value": "10"
         }
-    ]
+    ],
+    "abilityDescription": "Fires an orb towards the cursor position and deals {damage} damage to each unit it passes through. Has a {cooldown} second cooldown"
 }

@@ -1,0 +1,9 @@
+{
+    "abilityName": "Stomp",
+    "hotkey": "W",
+    "cooldown": "10",
+    "icon": "StompIcon",
+    "radius": "10",
+    "damage": "15",
+    "abilityDescription": "Stomps the ground around the player within a {radius} unit radius, deals {damage} damage and has a {cooldown} second cooldown"
+}

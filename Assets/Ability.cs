@@ -215,7 +215,7 @@ public class Ability: ScriptableObject
 
     public virtual void OnStartCast()
     {
-        if(this is not ImmediateAbility)
+        if(this is not ImmediateAbility && this is not ImmediateAOEAbility)
         {
             isTargeting = true;
 

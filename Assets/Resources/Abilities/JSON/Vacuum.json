@@ -2,7 +2,7 @@
     "abilityName": "Vacuum",
     "hotkey": "Q",
     "cooldown": "25",
-    "icon": "TestIcon1",
+    "icon": "VacuumIcon",
     "castrange": "10",
     "damage": "5",
     "radius": "5" ,
@@ -16,5 +16,6 @@
             "name": "pullDuration",
             "value": "0.5"
         }
-    ]
+    ],
+    "abilityDescription": "Moves all enemies with a {radius} unit radius, to the centre of the area. Deals {damage} damage and has a {cooldown} second cooldown"
 }
